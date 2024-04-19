@@ -1,0 +1,53 @@
+.navbar-container{
+    display: flex;
+    justify-content: space-between;
+    color: azure;
+}
+.background-img{
+    position: absolute;
+    z-index: -1;
+    background-image: url("../images/project_99acres_intro_img.jpg");
+    width: 100vw;
+    height: 21rem;
+    overflow: hidden; /* Hide overflow */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover; /* Cover the entire container */
+    background-position: center;
+}
+
+.adjust-logo{
+    height: 2.1rem;
+}
+.right-side-navbar{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    width: 15%;
+}
+
+.right-side-navbar, .left-side-navbar{
+    display: flex;
+    list-style: none;
+    height: 10vh;
+}
+.navbar-intro-img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.left-side-navbar{
+    width: 50%;
+    justify-content: space-between;
+}
+
+.left-side-navbar-list-item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.left-side-navbar-list-item img{
+    height: 40px;
+    padding-right: 10px;
+}
